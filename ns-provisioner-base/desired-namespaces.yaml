@@ -27,7 +27,7 @@ namespaces:
     - jeffa2@vmware.com
     groups:
     - the-mister-rabayata-group
-- name: mae
+- name: robert
   scanpolicies: ["lax-scan-policy"]
   pipelines: ["java", "node"]
   viewerrole:
