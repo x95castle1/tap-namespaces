@@ -9,8 +9,8 @@ kind: RoleBinding
 metadata:
   name: app-editor-role-binding
 subjects:
-#@ if hasattr(data.values.viewerrole, "users"):
-#@ for user in data.values.viewerrole.users:
+#@ if hasattr(data.values.editorrole, "users"):
+#@ for user in data.values.editorrole.users:
 - kind: User
   name: #@ user
   apiGroup: rbac.authorization.k8s.io
