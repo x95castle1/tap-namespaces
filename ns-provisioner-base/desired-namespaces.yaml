@@ -45,3 +45,9 @@ namespaces:
   editorrole:
     groups:
     - the-mister-rabayata-group
+- name: test-app
+  serviceaccount: ["eso-irsa"]
+  secretstore: ["aws"]
+  configsource: ["app1"]
+  configslice: ["app1"]
+  externalsecret: ["app-secret"]
