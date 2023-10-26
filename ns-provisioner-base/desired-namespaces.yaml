@@ -50,4 +50,4 @@ namespaces:
   secretstore: ["aws"]
   configsource: ["app1"]
   configslice: ["app1"]
-  externalsecret: ["app-secret"]
+  externalsecret: ["app1"]
